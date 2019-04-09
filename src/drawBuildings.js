@@ -1,19 +1,32 @@
 import { path } from 'ramda'
 import buildings from '../data/buildings.json'
 
-export default (svg, projection) => {
-  const getTransform = feature => {
-    const point = projection(path(['geometry', 'coordinates'], feature))
-    return `translate(${point[0]},${point[1]})`
-  }
+export default (svg, pathCreator) => {
 
-  svg.selectAll('text.buildings')
+  const university = ['university']
+  const hospital = ['hospital']
+  
+  const getBuildingColor = feature => {
+    const type = path(['properties', 'building'], feature)
+    if (university.includes(type)) {
+      return 'red'
+    }
+    if (hospital.includes(type)) {
+      return 'green'
+    }
+    return 'blue'
+  }
+  
+  svg.selectAll('path.building')
     .data(buildings.features)
     .enter()
-    .append('text')
-    .attr('class', 'buildings')
-    .attr('transform', getTransform)
-    .attr('fill', 'green')
-    .text('🏢')
-}
+    .append('path')
+      .attr('class', 'building')
+      .attr('d', pathCreator)
+      .attr('fill', 'none')
+      .attr('stroke', getBuildingColor)
+      .attr('stroke-width', 2)
+      .attr('stroke-linecap', 'round')
 
+  
+}
