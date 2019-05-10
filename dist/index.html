@@ -1,9 +1,280 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-  </head>
-  <body>
-    <script src="bundle.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" href="../node_modules/billboard.js/dist/billboard.css">
+  <link rel="stylesheet" href="../dist/css/style.css">
+</head>
+
+<body id="page-top">
+
+  <div id="section1" class="row section">
+    <div class="cell" id="ig9g9x">
+      <div class="row" id="ivuvlw">
+        <div class="cell img transform" id="ia02vh">
+          <img id="i3q0hh" class="picture" src="../dist/img/unicef-pakistan-20130920.png">
+        </div>
+        <div class="cell" id="ib9kjp">
+          <div class="row" id="i312e9">
+            <div class="cell" id="inrtwj">
+              <div class="h1" id="ic917k">Certains enfants n'ont pas accès à l'école. Heureusement, le monde a bien
+                évolué durant les 40 dernières années.
+              </div>
+              <div id="ivz5l1" class="btn-start">
+                <span id="start-span">
+                  Cliquer pour voir l'évolution </span>
+              </div>
+              <div class="row">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="section2" class="row section">
+    <div class="cell" id="i7g6dk">
+      <div class="row section1" data-id="section1">
+        <div class="cell graph-cell" id="i16jug">
+          <div class="row" id="i8uyb8">
+            <div id="multipleXYLineChart" class="cell">
+            </div>
+          </div>
+        </div>
+        <div class="cell" id="ii8muj">
+          <div class="row" id="iefpb8">
+            <div class="cell" id="ioznth">
+              <div class="h2" id="ixt0fa">Comme dans de nombreux domaines, une grande disparité a régné entre les filles
+                et les garçons.
+              </div>
+              <div class="normal-text" id="ij91pj">Heureusement, cette disparité a bien diminué. Le <strong>nombre total
+                  d'enfants sans accès à l'école a diminué de 50%,</strong> passant de 125 millions en 1970 à 63
+                millions en 2017.
+                <br><br> De plus, l'égalité garçons/ filles et quasiment parfaite. <strong> Le pourçentage total de
+                  filles est passé de 63% à 52%.</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row section2" id="iu2skx" data-id="section2">
+        <div class="cell" id="isnolg">
+          <div class="row" id="if9qvc">
+            <div class="cell" id="ifq2iw">
+              <div class="h2" id="ilakgh">L'histoire est spécifique à chaque pays.
+              </div>
+              <div class="normal-text" id="is77yo">L'évolution du nombre d'enfants sans possibilité d'accéder aux écoles
+                est une question impactée par de nombreux facteurs. C'est pourquoi on remarque d'aussi grande différence
+                entre tous les pays. <br><br>
+                Les statistiques générales tendent à montrer que les pays les plus touchés sont <strong> les pays à
+                  grande population ou en voie de développement.</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cell" id="iodtll">
+          <div class="row" id="igy8ir">
+            <div class="cell" id="i4uuzk">
+              <div class="row" id="iel8yb">
+                <div id="multipleXYLineChart2" class="cell">
+                </div>
+              </div>
+              <select name="select" id="select">
+                <option value="WLD"> Choississez un pays</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row content section3" data-id="section3">
+        <div class="cell graph-cell">
+          <div class="row" id="it6kfqi">
+            <div class="cell" id="igkikhi">
+              <div class="row" id="iylfx4">
+                <div id="pieChart" class="cell graph-to-change">
+                </div>
+                <div id="stackedAreaChart" class="cell stacked graph-to-change">
+                </div>
+              </div>
+              <div id="imsifi">
+                <input type="range" min="1970" max="2017" id="range" value="1970">
+                <span id="rangeval">1970</span>
+              </div>
+            </div>
+            <span class="graph-icon">
+              <svg class="change-icon-graph line-icon hidden" fill="#B3B3B3" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+                style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                <g>
+                  <path
+                    d="M85.7,24c-6.3,0-11.4,5.1-11.4,11.4c0,2.1,0.6,4,1.5,5.7L70,49.4c-1.2-0.4-2.4-0.6-3.7-0.6c-2.7,0-5.1,0.9-7.1,2.5   l-9.2-10.9c-0.2-6.1-5.2-11-11.4-11c-6.3,0-11.4,5.1-11.4,11.4c0,0.6,0.1,1.3,0.2,1.9l-8.3,11.6c-1.5-0.7-3.1-1.1-4.8-1.1   C8,53.2,2.9,58.3,2.9,64.6S8,76,14.3,76s11.4-5.1,11.4-11.4c0-2-0.5-3.9-1.5-5.6l6.9-9.7c2,1.7,4.6,2.8,7.5,2.8   c3.5,0,6.6-1.6,8.7-4.1l7.9,9.3c-0.2,0.9-0.4,1.8-0.4,2.8c0,6.3,5.1,11.4,11.4,11.4s11.4-5.1,11.4-11.4c0-2.5-0.8-4.7-2.1-6.6   l5.4-7.7c1.4,0.6,3,1,4.6,1c6.3,0,11.4-5.1,11.4-11.4S92,24,85.7,24z">
+                  </path>
+                </g>
+              </svg>
+              <svg class="change-icon-graph pie-icon hidden" fill="#B3B3B3" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+                xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px"
+                viewBox="0 0 100 100">
+                <g transform="translate(0,-952.36218)">
+                  <path style="color:#000000;enable-background:accumulate;"
+                    d="m 54,959.36217 0,39.00001 39,0 C 93,976.82317 75.539,959.36217 54,959.36217 z m -8,8 c -21.539,0 -38.9999995,17.461 -38.9999995,39.00003 0,21.539 17.4609995,39 38.9999995,39 21.539,0 39,-17.461 39,-39 l -39,0 0,-39.00003 z"
+                    fill="#B3B3B3" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible">
+                  </path>
+                </g>
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="cell" id="ig1lqsi">
+          <div class="row" id="iv3w4s6">
+            <div class="cell">
+              <div class="h2" id="ier9sxw">Sans grande surprise, certaines régions du monde sont plus concernées.
+              </div>
+              <div class="normal-text" id="imnizog">Ces régions sont principalement constituées des pays les plus
+                touchés. Logique mathématique. Les deux continents qui sont le plus concernés sont
+                <strong>l'Afrique</strong> et <strong>l'Asie.</strong> <br><br>
+                Cette tendance est largement impactée par de nombreux facteurs. Il reste difficile d'en tirer des
+                conclusions, mais une chose est sûre : <strong> c'est une problématique qui s'est bien
+                  améliorée,</strong> mais qui nécessite encore des efforts pour permettre à tous d'accéder aux écoles.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row section4" id="iu2skx" data-id="section4">
+        <div class="cell" id="isnolg">
+          <div class="row" id="if9qvc">
+            <div class="cell" id="ifq2iw">
+              <div class="h2" id="ilakgh">
+                Chaque pays a son histoire. Visualisez-les sur une carte interactive.
+              </div>
+              <div class="normal-text" id="is77yo">
+                <div class="color-div">
+                  <span class="color-box" style="background-color : #cccccc"></span>
+                  <p class="color-box-p">0</p>
+                </div>
+
+                <div class="color-div">
+                  <span class="color-box" style="background-color : #f9caca"></span>
+                  <p class="color-box-p">&lt 1'000</p>
+                </div>
+                <div class="color-div">
+                  <span class="color-box" style="background-color : #fcaeae"></span>
+                  <p class="color-box-p">&gt 1'000</p>
+                </div>
+                <div class="color-div">
+                  <span class="color-box" style="background-color : #e86868"></span>
+                  <p class="color-box-p">&gt 5'000</p>
+                </div>
+                <div class="color-div">
+                  <span class="color-box" style="background-color : #c13434"></span>
+                  <p class="color-box-p">&gt 10'000</p>
+                </div>
+                <div class="color-div">
+                  <span class="color-box" style="background-color : #911717"></span>
+                  <p class="color-box-p">&gt 50'000</p>
+                </div>
+                <div class="color-div">
+                  <span class="color-box" style="background-color : #660000"></span>
+                  <p class="color-box-p">&gt 100'000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cell" id="iodtll">
+          <div class="row" id="igy8ir">
+            <div class="cell" id="i4uuzk">
+              <div class="row" id="iel8yb">
+                <div id="chart5" class="cell">
+                  <span id="year-to-change">1970</span>
+                </div>
+              </div>
+              <div id="imsifi">
+                <!--
+                    <input type="range" min="1970" max="2017" id="range2" value="1970">
+                    <span id="rangeval2">1970</span>
+                    -->
+                <span class="play-button start" style=" margin-left : 30px;">
+                  <svg fill="#B3B3B3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1" x="0px" y="0px" viewBox="0 0 16.984 19.846"
+                    style="enable-background:new 0 0 16.984 19.846;" xml:space="preserve">
+                    <g>
+                      <path
+                        d="M0.759,0.158c0.39-0.219,0.932-0.21,1.313,0.021l14.303,8.687c0.368,0.225,0.609,0.625,0.609,1.057   s-0.217,0.832-0.586,1.057L2.132,19.666c-0.382,0.231-0.984,0.24-1.375,0.021C0.367,19.468,0,19.056,0,18.608V1.237   C0,0.79,0.369,0.378,0.759,0.158z">
+                      </path>
+                    </g>
+                  </svg> </span>
+                <span class="play-button stop">
+                  <svg fill="#B3B3B3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1" x="0px" y="0px" viewBox="0 0 16 20" style="enable-background:new 0 0 16 20;"
+                    xml:space="preserve">
+                    <g>
+                      <path d="M3,0C1.343,0,0,1.344,0,3v14c0,1.656,1.343,3,3,3s3-1.344,3-3V3C6,1.344,4.657,0,3,0z">
+                      </path>
+                      <path d="M13,0c-1.657,0-3,1.344-3,3v14c0,1.656,1.343,3,3,3s3-1.344,3-3V3C16,1.344,14.657,0,13,0z">
+                      </path>
+                    </g>
+                  </svg> </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row bottom-nav" id="ix23v7">
+        <div class="cell lateral-cell left" id="ihbxfu" data-dir="left">
+          <svg class="arrow left" fill="#666666" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"
+            style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;"
+            viewBox="0 0 186 244" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+            <g>
+              <polygon class="fil0" points="0,93 93,0 186,93 172,107 103,38 103,244 83,244 83,38 14,107 "></polygon>
+            </g>
+          </svg>
+        </div>
+        <div class="cell middle-cell left" id="iiez1z">
+          <div class="pagination" id="ikikzf">
+            <span class="count">
+              1
+            </span>/ 4
+          </div>
+        </div>
+        <div class="cell lateral-cell right" id="ivblbw" data-dir="right">
+          <svg class="arrow right" fill="#666666" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"
+            style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;"
+            viewBox="0 0 186 244" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+            <g>
+              <polygon class="fil0" points="0,93 93,0 186,93 172,107 103,38 103,244 83,244 83,38 14,107 "></polygon>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../node_modules/topojson/build/topojson.min.js"></script>
+  <script src="../node_modules/datamaps/dist/datamaps.world.min.js"></script>
+  <!-- Step 1) Load D3.js -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Step 2) Load billboard.js with style -->
+  <script src="../node_modules/billboard.js/dist/billboard.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="bundle.js"></script>
+
+</body>
+
 </html>

@@ -1,0 +1,400 @@
+[
+  {
+    "Country Name": "Aruba",
+    "Country Code": "ABW",
+    "gender": "female",
+    "statistics": [
+      {
+        "year": 1970,
+        "total": null
+      },
+      {
+        "year": 1971,
+        "total": null
+      },
+      {
+        "year": 1972,
+        "total": null
+      },
+      {
+        "year": 1973,
+        "total": null
+      },
+      {
+        "year": 1974,
+        "total": null
+      },
+      {
+        "year": 1975,
+        "total": null
+      },
+      {
+        "year": 1976,
+        "total": null
+      },
+      {
+        "year": 1977,
+        "total": null
+      },
+      {
+        "year": 1978,
+        "total": null
+      },
+      {
+        "year": 1979,
+        "total": null
+      },
+      {
+        "year": 1980,
+        "total": null
+      },
+      {
+        "year": 1981,
+        "total": null
+      },
+      {
+        "year": 1982,
+        "total": null
+      },
+      {
+        "year": 1983,
+        "total": null
+      },
+      {
+        "year": 1984,
+        "total": null
+      },
+      {
+        "year": 1985,
+        "total": null
+      },
+      {
+        "year": 1986,
+        "total": null
+      },
+      {
+        "year": 1987,
+        "total": null
+      },
+      {
+        "year": 1988,
+        "total": null
+      },
+      {
+        "year": 1989,
+        "total": null
+      },
+      {
+        "year": 1990,
+        "total": null
+      },
+      {
+        "year": 1991,
+        "total": null
+      },
+      {
+        "year": 1992,
+        "total": null
+      },
+      {
+        "year": 1993,
+        "total": null
+      },
+      {
+        "year": 1994,
+        "total": null
+      },
+      {
+        "year": 1995,
+        "total": null
+      },
+      {
+        "year": 1996,
+        "total": null
+      },
+      {
+        "year": 1997,
+        "total": null
+      },
+      {
+        "year": 1998,
+        "total": null
+      },
+      {
+        "year": 1999,
+        "total": 51
+      },
+      {
+        "year": 2000,
+        "total": 83
+      },
+      {
+        "year": 2001,
+        "total": 133
+      },
+      {
+        "year": 2002,
+        "total": 232
+      },
+      {
+        "year": 2003,
+        "total": 325
+      },
+      {
+        "year": 2004,
+        "total": 316
+      },
+      {
+        "year": 2005,
+        "total": 150
+      },
+      {
+        "year": 2006,
+        "total": 98
+      },
+      {
+        "year": 2007,
+        "total": 78
+      },
+      {
+        "year": 2008,
+        "total": 55
+      },
+      {
+        "year": 2009,
+        "total": 94
+      },
+      {
+        "year": 2010,
+        "total": null
+      },
+      {
+        "year": 2011,
+        "total": null
+      },
+      {
+        "year": 2012,
+        "total": null
+      },
+      {
+        "year": 2013,
+        "total": null
+      },
+      {
+        "year": 2014,
+        "total": 25
+      },
+      {
+        "year": 2015,
+        "total": null
+      },
+      {
+        "year": 2016,
+        "total": null
+      },
+      {
+        "year": 2017,
+        "total": null
+      }
+    ]
+  },
+  {
+    "Country Name": "Aruba",
+    "Country Code": "ABW",
+    "gender": "male",
+    "statistics": [
+      {
+        "year": 1970,
+        "total": null
+      },
+      {
+        "year": 1971,
+        "total": null
+      },
+      {
+        "year": 1972,
+        "total": null
+      },
+      {
+        "year": 1973,
+        "total": null
+      },
+      {
+        "year": 1974,
+        "total": null
+      },
+      {
+        "year": 1975,
+        "total": null
+      },
+      {
+        "year": 1976,
+        "total": null
+      },
+      {
+        "year": 1977,
+        "total": null
+      },
+      {
+        "year": 1978,
+        "total": null
+      },
+      {
+        "year": 1979,
+        "total": null
+      },
+      {
+        "year": 1980,
+        "total": null
+      },
+      {
+        "year": 1981,
+        "total": null
+      },
+      {
+        "year": 1982,
+        "total": null
+      },
+      {
+        "year": 1983,
+        "total": null
+      },
+      {
+        "year": 1984,
+        "total": null
+      },
+      {
+        "year": 1985,
+        "total": null
+      },
+      {
+        "year": 1986,
+        "total": null
+      },
+      {
+        "year": 1987,
+        "total": null
+      },
+      {
+        "year": 1988,
+        "total": null
+      },
+      {
+        "year": 1989,
+        "total": null
+      },
+      {
+        "year": 1990,
+        "total": null
+      },
+      {
+        "year": 1991,
+        "total": null
+      },
+      {
+        "year": 1992,
+        "total": null
+      },
+      {
+        "year": 1993,
+        "total": null
+      },
+      {
+        "year": 1994,
+        "total": null
+      },
+      {
+        "year": 1995,
+        "total": null
+      },
+      {
+        "year": 1996,
+        "total": null
+      },
+      {
+        "year": 1997,
+        "total": null
+      },
+      {
+        "year": 1998,
+        "total": null
+      },
+      {
+        "year": 1999,
+        "total": 110
+      },
+      {
+        "year": 2000,
+        "total": 64
+      },
+      {
+        "year": 2001,
+        "total": 157
+      },
+      {
+        "year": 2002,
+        "total": 175
+      },
+      {
+        "year": 2003,
+        "total": 221
+      },
+      {
+        "year": 2004,
+        "total": 164
+      },
+      {
+        "year": 2005,
+        "total": 36
+      },
+      {
+        "year": 2006,
+        "total": 24
+      },
+      {
+        "year": 2007,
+        "total": 20
+      },
+      {
+        "year": 2008,
+        "total": 24
+      },
+      {
+        "year": 2009,
+        "total": 254
+      },
+      {
+        "year": 2010,
+        "total": null
+      },
+      {
+        "year": 2011,
+        "total": null
+      },
+      {
+        "year": 2012,
+        "total": null
+      },
+      {
+        "year": 2013,
+        "total": null
+      },
+      {
+        "year": 2014,
+        "total": 35
+      },
+      {
+        "year": 2015,
+        "total": null
+      },
+      {
+        "year": 2016,
+        "total": null
+      },
+      {
+        "year": 2017,
+        "total": null
+      }
+    ]
+  }
+]

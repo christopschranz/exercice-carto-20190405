@@ -16,7 +16,11 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
+    "billboard.js": "^1.8.0",
     "d3": "^5.9.1",
+    "datamaps": "^0.5.9",
+    "jquery": "^3.4.1",
+    "jquery-scrollify": "^1.0.20",
     "ramda": "^0.26.1"
   }
 }
