@@ -1,6 +1,7 @@
 # VisualDon – Projet
 ## Le jeu de données
 J'ai sélectionné les statistiques liés au nombre d'enfants n'ayant pas accès à l'éducation. J'ai sélectionné les jeux de données des enfants de sexe masculin et féminin.
+
 https://data.worldbank.org/indicator/SE.PRM.UNER.FE
 https://data.worldbank.org/indicator/SE.PRM.UNER.MA
 
@@ -26,6 +27,7 @@ Ces différents types de représentations se complètent bien et permettent d'av
 Avec ces statistiques, je souhaiterais illustrer l'évolution de la problématique des enfants n'ayant pas accès à l'éducation.
 Je souhaiterais également illustrer la/ les différences de cette évolution entre les enfants de sexe féminin et masculin et entre les différentes régions du monde.
 On parle souvent de l'égalité homme/femme, et j'étais persuadé que ce phénomène faisait également l'objet de disparités. Heureusement, les visualisations ont démontrés que ces dernières ont largement diminué au fil du temps. On peut imaginer que c'est notamment au travers de mouvements féministes mondiaux qu'elles ont diminués.
+
 D'un point de vue général, j'ai voulu démontré que ce phénomène était directement lié au niveau de développement des régions du monde. Sans surprise, l'Afrique est l'un des continents principaux à être concerné par cette problématique. Même si la problématique a diminué de plus de 50% depuis 1970, il est tout de même surprenant de constater que 63 millions d'enfants n'ont toujours pas accès à l'école, surtout lorsque l'on voit la technologie d'aujourd'hui.
 
 À l'heure où le savoir est plus que jamais facilement partageable, le constat actuel reste attristant et est synonyme de la complexité de la problématique. 
